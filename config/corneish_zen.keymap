@@ -3,12 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    chosen {
-        zmk,matrix_transform = &default_transform;
-    };
-};
-
-/ {
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
