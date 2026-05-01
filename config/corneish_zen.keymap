@@ -18,7 +18,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LSHFT>, <&caps_word>;
+            bindings = <&sk LSHFT>, <&caps_word>;
         };
     };
 
@@ -106,7 +106,7 @@
    &kp TAB   &kp Q       &kp W       &kp F       &kp P         &kp B      &kp J      &kp L        &kp U       &kp Y       &kp QUOT    &kp BSPC
    &kp ESC   &hm LCMD A  &hm LCTRL R &hm LALT S  &hm LSHFT T   &kp G      &kp M      &hm RSHFT N  &hm RALT E  &hm RCTRL I &hm RCMD O  &kp RET
    &kp LSHFT &kp Z       &kp X       &kp C       &kp D         &kp V      &kp K      &kp H        &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
-                                     &mo 3       &mo 1         &td_shift  &kp SPACE  &mo 2        &mo 3
+                                     &mo 2       &mo 1         &td_shift  &kp SPACE  &mo 2        &mo 1
             >;
         };
 
@@ -136,7 +136,7 @@
    &trans &none        &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &none   &none      &kp LS(TAB) &kp TAB     &kp BSPC  &kp DEL  &kp DEL
    &trans &kp LCMD     &kp LCTRL    &kp LALT     &kp LSHFT  &none   &kp LEFT   &kp DOWN    &kp UP      &kp RIGHT &kp RET  &trans
    &trans &none        &kp C_PREV   &kp C_NEXT   &kp C_PP   &none   &kp HOME   &kp PG_DN   &kp PG_UP   &kp END   &kp ESC  &trans
-                                    &bootloader  &none      &none   &bt BT_CLR &bt BT_PRV  &bt BT_NXT
+                                    &none        &none      &none   &bt BT_CLR &bt BT_PRV  &bt BT_NXT
             >;
         };
     };
